@@ -1,0 +1,4 @@
+The goal in two sum is two find which values in the given nums array sum to the given target. A dictionary is initialized as empty to hold all of the values that have been seen after iteration. The equation difference = target - val is used during the for loop to determine what value, if summed with the current index's value would equal the target value. If this number is found in the seen dictionary, both indices are returned in a list. If not, the value:index pair is added to the dictionary.
+
+Time complexity: O(n), as the nums list is iterated through
+Space complexity: O(n), as the seen dictionary holds at most the length of nums
